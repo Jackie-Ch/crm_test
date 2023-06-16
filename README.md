@@ -2,7 +2,7 @@
 
 Это приложение сделано как тестовое задание
 
-[deploy link](deploy-link)
+[Ссылка на диплой](https://crm-test-1xdcm1l7m-jackie-ch.vercel.app/)
 
 ## Описание
 
