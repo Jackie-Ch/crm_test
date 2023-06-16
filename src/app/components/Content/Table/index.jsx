@@ -7,7 +7,6 @@ import {
 } from '../../../../redux/features/sliceCallList';
 import s from './Table.module.css';
 import { AudioPlayer } from '../../AudioPlayer';
-import _ from 'lodash';
 import { IncomingCallIcon } from '../../IconsSVG/IncomingCallIcon';
 import { OutgoingCallIcon } from '../../IconsSVG/OutgoingCallIcon';
 import { MissedCallIcon } from '../../IconsSVG/MissedCallIcon';
