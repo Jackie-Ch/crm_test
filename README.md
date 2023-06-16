@@ -10,7 +10,7 @@
 
 ## Предпросмотр
 
-![Preview](call-list.png)
+![Preview](/public/call-list.png)
 
 ## Стек технологий
 
