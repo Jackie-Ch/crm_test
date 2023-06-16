@@ -1,0 +1,18 @@
+.date_picker {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  cursor: pointer;
+}
+.date {
+  color: #005ff8;
+  margin-left: 8px;
+}
+
+.left_arrow {
+  margin-right: 21.5px;
+}
+
+.right_arrow {
+  margin-left: 21.5px;
+}

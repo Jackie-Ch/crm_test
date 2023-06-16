@@ -1,0 +1,29 @@
+.loader {
+  width: 93px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner svg {
+  width: 12px;
+  height: 12px;
+  animation: rotate 2s infinite linear;
+}
+
+.loader_text {
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #899cb1;
+}

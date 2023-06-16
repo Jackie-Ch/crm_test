@@ -1,0 +1,17 @@
+.header {
+  max-width: 1680px;
+  box-sizing: border-box;
+  padding: 0 120px;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+
+  background: #ffff;
+  box-shadow: 0px 4px 5px #e9edf3;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+}

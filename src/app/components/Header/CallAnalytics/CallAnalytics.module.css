@@ -1,0 +1,67 @@
+.call_analytics {
+  display: flex;
+  gap: 56px;
+
+  max-width: 594px;
+
+  /* margin-right: 189px; */
+
+  font-size: 14px;
+  color: #122945;
+}
+
+.new_calls {
+  width: 162px;
+}
+
+.calls_quality {
+  width: 164px;
+}
+
+.conversion {
+  width: 156px;
+}
+
+.new_calls_color {
+  color: #00a775;
+}
+
+.calls_quality_color {
+  color: #ffb800;
+}
+
+.conversion_color {
+  color: #ea1a4f;
+}
+
+.bar {
+  width: 156px;
+  height: 6px;
+  border-radius: 12px;
+  background-color: #dee6f5;
+
+  margin-top: 7px;
+
+  position: relative;
+}
+
+.bar_fill {
+  height: 6px;
+  border-radius: 12px;
+
+  position: absolute;
+
+  transition: width 1s;
+}
+
+.bar_newCalls_color {
+  background-color: #00a775;
+}
+
+.bar_quality_color {
+  background-color: #ffb800;
+}
+
+.bar_conversion_color {
+  background-color: #ea1a4f;
+}

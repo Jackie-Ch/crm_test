@@ -1,0 +1,39 @@
+.system_search {
+  width: 277px;
+
+  display: flex;
+  align-items: center;
+
+  line-height: 140%;
+
+  position: relative;
+}
+
+.system_search_icon {
+  position: absolute;
+  left: 56px;
+  top: calc(50% - 8px);
+  cursor: pointer;
+}
+
+.system_search_input {
+  width: 200px;
+  margin: 0 auto;
+  border: none;
+  box-sizing: border-box;
+  padding-left: 38px;
+  color: #122945;
+  cursor: pointer;
+}
+
+.system_search_input:focus {
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #002cfb;
+  border-radius: 48px;
+  outline: none;
+}
+
+.system_search_input:hover ~ .system_search_icon path {
+  fill: #002cfb;
+}

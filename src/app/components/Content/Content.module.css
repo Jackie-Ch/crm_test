@@ -1,0 +1,11 @@
+.content {
+  padding: 0 120px;
+  box-sizing: border-box;
+
+  background-color: #f1f4f9;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148%;
+}

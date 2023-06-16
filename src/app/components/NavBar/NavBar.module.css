@@ -1,0 +1,105 @@
+.navbar {
+  background-color: #091336;
+
+  box-sizing: border-box;
+}
+
+.menu_list {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 64px;
+}
+
+.menu_item {
+  min-width: 206px;
+  padding: 15px 22px 17px 12px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+
+  cursor: pointer;
+  position: relative;
+}
+
+.menu_item.active {
+  background: rgba(216, 228, 251, 0.32);
+  color: #ffffff;
+}
+
+.menu_item.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #002cfb;
+}
+
+.menu_list::after {
+  content: '';
+  position: absolute;
+  left: 220px;
+  top: 272px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffd500;
+  box-shadow: 0px 3px 8px rgba(237, 218, 1, 0.5);
+}
+
+.menu_item:hover {
+  background: rgba(216, 228, 251, 0.32);
+  color: #ffffff;
+}
+
+.menu_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu_item:hover .menu_icon svg path {
+  fill: #ffff;
+  fill-opacity: 1;
+}
+
+.menu_item.active .menu_icon svg path {
+  fill: #ffff;
+  fill-opacity: 1;
+}
+
+.menu_text {
+  margin-left: 12px;
+}
+
+.add_order_btn,
+.payment_btn {
+  width: 200px;
+  height: 52px;
+  margin: 0 auto;
+
+  background: #005ff8;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 148%;
+  color: #ffffff;
+  margin-bottom: 32px;
+
+  cursor: pointer;
+}
+
+.add_order_btn span {
+  margin: 0 17px 0 24px;
+}
+
+.payment_btn span {
+  margin: 0 33px 0 65px;
+}

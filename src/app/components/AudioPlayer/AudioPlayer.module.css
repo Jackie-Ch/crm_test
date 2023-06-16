@@ -1,0 +1,82 @@
+.player {
+  width: 352px;
+  height: 48px;
+  box-sizing: border-box;
+  padding: 12px 0 12px 19px;
+  margin: 0 40px 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 48px;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: #eaf0fa;
+  color: #122945;
+}
+
+.player_duration {
+  margin-right: 12px;
+}
+
+.play_puse_btn {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 50%;
+}
+
+.player_bar {
+  height: 4px;
+  width: 164px;
+  margin-right: 18px;
+  background: #adbfdf;
+  border-radius: 50px;
+  position: relative;
+}
+
+.player_bar::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  height: 12px;
+  width: 100%;
+}
+
+.player_bar span {
+  height: 4px;
+  background-color: #002cfb;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.download_icon {
+  width: 13px;
+  height: 15px;
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.download_icon:hover path {
+  fill: #002cfb;
+}
+
+.cross_icon {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.cross_icon:hover path {
+  fill: #002cfb;
+}
