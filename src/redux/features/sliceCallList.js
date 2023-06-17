@@ -63,8 +63,9 @@ export const callListSlice = createSlice({
       state.numIsActiveNavBar = action.payload;
     },
     handleOpenFilter: (state, action) => {
-      state.filterList = state.filterList.map((filterItem) => {
-        if (filterItem.id === action.payload) {
+       state.filterList = state.filterList.map((filterItem) => {
+        if (filterItem.isOpen === true) return { ...filterItem, isOpen: false };
+        else if (filterItem.id === action.payload) {
           return { ...filterItem, isOpen: !filterItem.isOpen };
         }
         return filterItem;
